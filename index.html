@@ -50,16 +50,16 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#carousel">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Profile</a>
+              <a class="nav-link" href="#profile">Profile</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Berita</a>
+              <a class="nav-link" href="#berita">Berita</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
           <form class="d-flex">
@@ -69,5 +69,91 @@
         </div>
       </div>
     </nav>
+
+    <!-- jumbotron Profile-->
+    <div class="jumbotron text-center" id="profile">
+      <img class="img-thumbnail rounded-circle" src="img/FotoProfile-merah.jpg" alt="foto profile" width="150" />
+      <h1 class="display-4">Fidy G S Gara</h1>
+      <p class="lead">One shoot, One Kill !!!!</p>
+    </div>
+    <!-- end jumbo -->
+
+    <!-- jumbotron Berita-->
+    <div class="jumbotronberita text-center" id="berita">
+      <div class="row row-cols-1 row-cols-md-4 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="img/ml1.jpg" class="card-img-top" alt="Granger" />
+            <div class="card-body">
+              <h5 class="card-title">Granger</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/ml2.jpg" class="card-img-top" alt="Lunox" />
+            <div class="card-body">
+              <h5 class="card-title">Lunox</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/ml3.jpg" class="card-img-top" alt="Chou" />
+            <div class="card-body">
+              <h5 class="card-title">Chou</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/ml4.jpg" class="card-img-top" alt="Selena" />
+            <div class="card-body">
+              <h5 class="card-title">Selena</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end jumbo -->
+
+    <!-- Contact us -->
+    <section id="contact">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col">
+            <h2>Contact Us</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <form>
+              <div class="mb-3">
+                <label for="Name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="text" aria-describedby="emailHelp" />
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
+              </div>
+              <div class="mb-3">
+                <label for="pesan" class="form-label">Pesan</label>
+                <textarea class="form-control" id="pesan" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Kirim</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end Contact -->
+    <!-- footer -->
+    <footer class="footer bg-primary">
+      <p class="text-white">Created by <a href="https://m.facebook.com/fidy21?locale2=id_ID" class="text-white fw-bold">Fidcom</a></p>
+    </footer>
   </body>
 </html>

@@ -1,3 +1,17 @@
 .carousel-item {
   height: 400px;
 }
+
+.jumbotron {
+  padding: 2rem 1rem;
+  background-color: rgb(78, 144, 199);
+}
+
+.jumbotronberita {
+  padding: 2rem 1rem;
+  background-color: rgb(51, 167, 128);
+}
+
+.card {
+  width: 300px;
+}
